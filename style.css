@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.brand {
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+header {
+    /* position: fixed; */
+    background-color: #77b391;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a,
+nav ul li a:visited {
+    color: #fff;
+}
+nav ul li {
+    transition: transform 0.3s;
+    transform: none;
+}
+nav ul li:hover {
+    transform: scale(1.1);
+}
+.banner {
+    padding: 200px 0;
+    width: 100%;
+    height: 50px;
+    background-image: url("gettyimages-887508916-2048x2048.jpg");
+        
+}
+.banner .title{
+    color: #757765;
+    text-shadow: 5px 5px #444;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+.row {
+    width: 100%;
+    clear: both;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col-2,
+.col-4,
+.col-6,
+.col-12 {
+    padding: 0 10px;
+    float: left;
+}
+.col-2 {
+    width: 150.66px;
+}
+.col-4 {
+    width: 321px;
+}
+.col-6 {
+    width: 492px;
+}
+h1 {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    font-family: "racing sans one";
+}
+
+.banner .subtitle {
+    font-family: cursive;
+}
+.banner p {
+    color: #641d72;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+button {
+    background-color: #754a04;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border: 5px solid transparent;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: serif;
+  }
+  
+    
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  p {
+      margin-bottom: 10px;
+  }
+  h3 {
+      font-family: "racing sans one";
+      margin: 10px 0;
+  }
+  footer {
+      width: 100%;
+      background-color: #c1c40f;
+
+  }
+  footer .brand {
+      font-size: 1rem;
+  }
+  .shifter {
+      font-family: "racing sans one";
+      border: 10px;
+      border-radius: 10px;
+      color: white;
+      background-color: green;
+      height: 500px;  
+  }
